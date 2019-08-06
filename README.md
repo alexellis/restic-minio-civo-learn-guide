@@ -6,6 +6,8 @@ In this guide we will explore how to backup our local files to remote storage ho
 
 *Conceptual overview*
 
+> ✅ Follow Civo on Twitter [@civocloud](https://twitter.com/civocloud)
+
 ### An introduction the tools:
 
 Civo offers 50 USD free credits to new users. This will be enough to run a Medium-sized Instance with 50 GB of local SSD storage for over a month.
@@ -392,3 +394,5 @@ We now have around 50GB of SSD-backed storage that we can backup our local files
 * Find out more about [restic in the FAQ](https://restic.readthedocs.io/en/stable/faq.html)
 
 * Find out what [else you can do with Minio](https://min.io/)
+
+✅ Follow Civo on Twitter [@civocloud](https://twitter.com/civocloud)
