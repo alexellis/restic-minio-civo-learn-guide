@@ -1,6 +1,10 @@
 ## Backup your data using Restic, Minio, and Civo
 
-In this guide we will explore how to backup our local files to remote storage hosted on Civo, a developer-cloud in the UK. The tool of choice is [restic](https://restic.net/#quickstart) and [Minio](https://min.io) will be providing object storage
+In this guide we will explore how to backup our local files to remote storage hosted on Civo, a developer-cloud in the UK. The tool of choice is [restic](https://restic.net/#quickstart) and [Minio](https://min.io) will be providing object storage.
+
+![](/image/restic-civo.png)
+
+*Conceptual overview*
 
 ### An introduction the tools:
 
@@ -17,7 +21,7 @@ Here's a few words on restic from [the project homepage](https://restic.net/#qui
 
 #### Minio
 
-[Minio](https://min.io) is a drop-in replacement for Amazon S3 for backing up files, as a storage back-end for tools such as a container registry, or even to host static websites. 
+[Minio](https://min.io) is a drop-in replacement for [Amazon S3](https://aws.amazon.com/s3/) for backing up files, as a storage back-end for tools such as a container registry, or even to host static websites. 
 
 Minio describes itself as:
 
