@@ -2,15 +2,16 @@
 
 In this guide we will explore how to backup our local files to remote storage hosted on Civo, a developer-cloud in the UK. The tool of choice is [restic](https://restic.net/#quickstart) and [Minio](https://min.io) will be providing object storage.
 
+> ✅ Follow Civo on Twitter [@civocloud](https://twitter.com/civocloud)
+
 ![](/image/restic-civo.png)
 
 *Conceptual overview*
 
-> ✅ Follow Civo on Twitter [@civocloud](https://twitter.com/civocloud)
 
 ### An introduction the tools:
 
-Civo offers 50 USD free credits to new users. This will be enough to run a Medium-sized Instance with 50 GB of local SSD storage for over a month.
+Civo offers 50 USD free credits to new users, [sign-up here](https://www.civo.com/signup). This will be enough to run a Medium-sized Instance with 50 GB of local SSD storage for over a month.
 
 #### Restic
 
