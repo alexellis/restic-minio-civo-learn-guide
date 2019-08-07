@@ -290,7 +290,7 @@ Snapshots can be taken on a manual, or periodic basis using the "Snapshot" butto
 
 ![](/image/snapshot.png)
 
-For piece of mind, you can select "Automated".
+For peace of mind, you can select "Automated".
 
 Here's the snapshot I just took:
 
