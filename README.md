@@ -362,6 +362,8 @@ sudo systemctl enable minio.service
 sudo systemctl start minio.service
 ```
 
+Minio will now start automatically when the Instance is powered on.
+
 #### Turn on TLS for Minio
 
 Whilst restic does use encryption to store data, we should also have encryption enabled at the link level. This can be achieved by turning TLS on for Minio.
