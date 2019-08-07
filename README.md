@@ -300,7 +300,9 @@ Here's the snapshot I just took:
 
 We started Minio's server as a simple binary, but if it crashes, it will not restart on its own. Similarly, if we had a power-cycle on the Instance, the server won't restart.
 
-On the Civo Instance, let's create a systemd unit file as `minio.service`:
+On the Civo Instance, let's create a systemd unit file as `minio.service`.
+
+Save it in your home directory for now.
 
 ```ini
 [Unit]
